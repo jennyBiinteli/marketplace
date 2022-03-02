@@ -13,7 +13,7 @@ class CurlController
 		$PORT = $_SERVER["SERVER_PORT"];
 		// return "http://api-marketplace.com:" . $PORT . "/";
 		// return "https://demomarketplace-api.biinteli.com/";
-		return "https://d3momarketplace.herokuapp.com/";
+		return "https://d3moapimarketplace.herokuapp.com/";
 	}
 
 
