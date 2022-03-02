@@ -28,11 +28,13 @@ class TemplateController
 
 
 
-			return "https://localhost/marketplace:" . $PORT . "/"; // Pruebas Facebook	
+			// return "https://localhost/marketplace:" . $PORT . "/"; // Pruebas Facebook	
+			return "https://d3momarketplace.herokuapp.com/"; //HEROKU
 
 		} else {
 
-			return "http://marketplace.com:" . $PORT . "/";
+			// return "http://marketplace.com:" . $PORT . "/"; //local
+			return "http://d3momarketplace.herokuapp.com/"; //HEROKU
 		}
 	}
 
